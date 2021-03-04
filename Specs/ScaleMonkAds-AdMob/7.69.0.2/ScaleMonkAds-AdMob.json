@@ -1,0 +1,29 @@
+{
+    "name": "ScaleMonkAds-AdMob",
+    "version": "7.69.0.2",
+    "summary": "ScaleMonk Mediation Adapter for AdMob",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/bentonquest/ios-podspecs-tests/releases/download/scalemonkads-admob-7.69.0.2/ScaleMonkAds_AdMob.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "dependencies": {
+        "ScaleMonkAds": [
+            "1.0.0-alpha.6"
+        ],
+        "Google-Mobile-Ads-SDK": [
+            "7.69.0"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds_AdMob/ScaleMonkAds_AdMob.xcframework",
+    "swift_version": "5.1"
+}
