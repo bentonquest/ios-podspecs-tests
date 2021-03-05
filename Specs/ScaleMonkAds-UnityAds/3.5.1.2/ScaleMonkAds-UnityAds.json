@@ -1,0 +1,29 @@
+{
+    "name": "ScaleMonkAds-UnityAds",
+    "version": "3.5.1.2",
+    "summary": "ScaleMonk Mediation Adapter for UnityAds",
+    "homepage": "https://www.scalemonk.com",
+    "license": "https://www.scalemonk.com/legal/en-US/mediation-license-agreement/index.html",
+    "authors": {
+        "ScaleMonk": "mediation@scalemonk.com"
+    },
+    "source": {
+        "http": "https://github.com/bentonquest/ios-podspecs-tests/releases/download/scalemonkads-unityads-3.5.1.2/ScaleMonkAds_UnityAds.zip"
+    },
+    "swift_versions": "5.1",
+    "platforms": {
+        "ios": "10.0"
+    },
+    "requires_arc": true,
+    "dependencies": {
+        "ScaleMonkAds": [
+            "1.0.0-alpha.6"
+        ],
+        "UnityAds": [
+            "3.5.1"
+        ]
+    },
+    "static_framework": true,
+    "vendored_frameworks": "ScaleMonkAds_UnityAds/ScaleMonkAds_UnityAds.xcframework",
+    "swift_version": "5.1"
+}
